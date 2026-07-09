@@ -1,0 +1,2 @@
+# GoLog
+GoLog
