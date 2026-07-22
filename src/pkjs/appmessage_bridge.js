@@ -1,0 +1,1 @@
+console.log('GoLog: appmessage_bridge.js inactive');

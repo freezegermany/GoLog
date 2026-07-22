@@ -1,18 +1,6 @@
 #include <pebble.h>
-#include "activity_select.h"
-#include "workout_window.h"
-
-static void prv_init(void) {
-  activity_select_push();
-}
-
-static void prv_deinit(void) {
-  workout_window_destroy();
-}
-
-int main(void) {
-  prv_init();
-  app_event_loop();
-  prv_deinit();
-  return 0;
-}
+#include "appmessage_protocol.h"
+#include "windows/main_menu.h"
+static void init(void) { app_message_protocol_init(); main_menu_window_init(); }
+static void deinit(void) { window_stack_pop_all(false); }
+int main(void) { init(); app_event_loop(); deinit(); }

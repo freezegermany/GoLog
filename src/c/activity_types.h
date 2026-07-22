@@ -1,0 +1,14 @@
+#pragma once
+
+typedef enum {
+  ACTIVITY_TYPE_RUNNING = 0,
+  ACTIVITY_TYPE_CYCLING = 1,
+} ActivityType;
+
+typedef enum {
+  ACTIVITY_STATE_IDLE = 0,
+  ACTIVITY_STATE_RUNNING = 1,
+  ACTIVITY_STATE_AUTOPAUSED = 2,
+  ACTIVITY_STATE_MANUAL_PAUSED = 3,
+  ACTIVITY_STATE_STOPPED = 4,
+} ActivityState;
