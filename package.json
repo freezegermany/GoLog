@@ -1,0 +1,54 @@
+{
+    "author": "GoLog",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "golog",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "GoLog",
+        "enableMultiJS": false,
+        "messageKeys": [
+            "EVENT_TYPE",
+            "ACTIVITY_TYPE",
+            "GPS_STATUS",
+            "LAT",
+            "LON",
+            "ALT_RAW",
+            "ALT_SMOOTH",
+            "SPEED",
+            "DURATION",
+            "DISTANCE",
+            "PACE",
+            "HR_BPM",
+            "AUTOPAUSE_RUN_THRESHOLD",
+            "AUTOPAUSE_CYCLE_THRESHOLD",
+            "UNITS_METRIC",
+            "GPX_EXPORT_ENABLED",
+            "ACTIVITY_COMMAND",
+            "SYNC_REQUEST",
+            "SYNC_STATUS"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "a1b2c3d4-e5f6-4789-abcd-ef0123456789",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
