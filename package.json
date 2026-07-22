@@ -12,7 +12,7 @@
             "health"
         ],
         "displayName": "GoLog",
-        "enableMultiJS": false,
+        "enableMultiJS": true,
         "messageKeys": [
             "EVENT_TYPE",
             "ACTIVITY_TYPE",
